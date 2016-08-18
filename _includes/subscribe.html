@@ -5,15 +5,18 @@
         </div>
     </div>
     <div class="row">
-        <div class="col l4 offset-l3 s12">
-            <div class="input-field" title="Klik untuk menginput email anda!">
-                <i class="icon ion-email prefix"></i>
-                <input id="subscribe-input" type="email">
-                <label for="subscribe-input" class="hide-on-med-and-down">Masukan sebuah email untuk berlangganan</label>
+        <form action="https://getsimpleform.com/messages?api_token=16a326aaac8ae878f0e674d189958585" method="post">
+            <div class="col l4 offset-l3 s12">
+                <input type='hidden' name='redirect_to' value='https://wbmonstr.github.io' />
+                <div class="input-field" title="Klik untuk menginput email anda!">
+                    <i class="icon ion-email prefix"></i>
+                    <input id="subscribe-input" type="email" name="email">
+                    <label for="subscribe-input" class="hide-on-med-and-down">Masukan sebuah email untuk berlangganan</label>
+                </div>
             </div>
-        </div>
-        <div class="col l2 s12">
-            <button class="btn waves" title="Klik untuk mensubmit email yang telah anda masukan">Subscribe</button>
-        </div>
+            <div class="col l2 s12">
+                <button class="btn waves" type="submit" title="Klik untuk mensubmit email yang telah anda masukan">Subscribe</button>
+            </div>
+        </form>
     </div>
 </div>
