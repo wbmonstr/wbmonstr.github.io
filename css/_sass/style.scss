@@ -1,0 +1,699 @@
+/*
+
+*/
+
+
+// Mixin
+@mixin phone() {
+    @media screen and(max-width: 360px) {
+        @content;
+    }
+}
+
+* {
+    font-family: "lato", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col {
+    min-height: 1px;
+}
+
+$blue:#1F89E5;
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+nav {
+    background: transparent;
+    color: #333;
+    border-bottom: 3px solid transparent;
+    padding: 0 40px;
+    padding-left: 100px;
+    z-index: 100;
+    position: relative;
+    box-shadow: none;
+    transition: background .3s ease;
+    @include phone {
+        padding: 0 20px;
+    }
+    img {
+        top: -4px;
+        position: relative;
+        width: 140px;
+    }
+    ul#mobile-demo {
+        li.active a {
+            background: #f8f8f8;
+        }
+    }
+    ul {
+        li {
+            &.active {
+                a {
+                    background: transparent;
+                    position: relative;
+                    top: -2px;
+                    border-bottom: 3px solid #fff;
+                    @include phone {
+                        border: none;
+                    }
+                }
+            }
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .brand-logo {
+        color: #fff;
+        @include phone {
+            padding-left: 5px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 20px;
+            @include phone {
+                span {
+                    top: -5px;
+                    position: relative;
+                }
+            }
+            span.bold {
+                font-weight: 900;
+                margin: 0;
+            }
+            i {
+                margin-right: 10px;
+                display: inline-block;
+                position: relative;
+                top: 5px;
+                @include phone {
+                    top: 0;
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+    &.no__trans {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        background: #fff;
+        ul {
+            li {
+                &.active {
+                    a {
+                        background: #fff;
+                        top: -2px;
+                        border-bottom: 3px solid $blue;
+                        @include phone {
+                            border-bottom: none;
+                            top: 0;
+                            background: #fefefe;
+                        }
+                    }
+                }
+                a {
+                    color: #444;
+                }
+            }
+        }
+        a {
+            color: #444;
+        }
+        .brand-logo {
+            color: #555;
+        }
+    }
+}
+
+@keyframes pop {
+    0%,
+    100% {
+        letter-spacing: 0
+    }
+    50% {
+        letter-spacing: 2px
+    }
+}
+
+div.banner-page {
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    @include phone {
+        padding: 40px 3px;
+    }
+    h2 {
+        margin: 0;
+        @include phone {
+            font-size: 20px;
+        }
+    }
+    p {
+        margin: 0;
+        @include phone {
+            font-size: 12px;
+        }
+    }
+}
+
+div#dukungan-info {
+    padding: 40px 0;
+    @include phone {
+        padding: 0;
+    }
+    .row {
+        padding: 0 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #eee;
+        @include phone {
+            padding: 10px;
+        }
+        h3 {
+            font-size: 30px;
+            @include phone {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        p {
+            font-size:16px;
+			@include phone {
+				font-size: 12px;
+				text-align: center;
+			}
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+        .img-full {
+            width: 80%;
+            text-align: center;
+        }
+    }
+}
+
+div#slide-banner {
+    // background: #f8f8f8;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('../image/Assets/image-card.jpg');
+    padding: 100px 0;
+    padding-top: 100px;
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    background-attachment: fixed;
+    @include phone {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    #logo-banner {
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+    #tagline {
+        h2 {
+            transition: all .1s ease;
+            font-size: 50px;
+            font-weight: 900;
+            color: #fff;
+            position: relative;
+            @include phone {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+        }
+        h3 {
+            color: #fff;
+            font-size: 30px;
+            @include phone {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+#weare {
+    padding: 30px;
+    @include phone {
+        padding: 5px;
+    }
+    .img-full {
+        width: 100%;
+    }
+    p {
+        @include phone {
+            font-size: 12px;
+        }
+    }
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #eee;
+    &.half {
+        width: 80%;
+    }
+}
+
+.text-blue {
+    color: #1F89E5;
+    font-weight: 300;
+    @include phone {
+        margin: 5px 0;
+        font-size: 20px;
+    }
+}
+
+.btn {
+    background: $blue;
+    &:hover {
+        background: lighten($blue, 5%);
+    }
+}
+
+#benefit {
+    background: #f8f8f8;
+    padding: 20px 30px;
+    @include phone {
+        padding: 5px;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 0;
+    }
+    .card {
+        margin: 40px 0;
+        &.horizontal {
+            @include phone {
+                margin: 10px 0;
+            }
+        }
+        .card-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        .card-content {
+            height: 200px;
+            @include phone {
+                padding: 10px 15px;
+                min-height: 1px;
+                height: 150px;
+            }
+        }
+        h3 {
+            font-weight: 900;
+            font-size: 25px;
+            @include phone {
+                font-size: 16px;
+                margin: 5px 0;
+            }
+        }
+        p {
+            @include phone {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+#services {
+    padding: 10px 100px;
+    @include phone {
+        padding: 5px;
+    }
+    @include phone {
+        .row {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    h2 {
+        font-weight: 800;
+        margin-top: 20px;
+        margin-bottom: 0;
+        @include phone {
+            font-size: 20px;
+        }
+    }
+    p {
+        margin-top: 5px;
+        color: #777;
+        @include phone {
+            font-size: 12px;
+        }
+    }
+    .list-service {
+        list-style: none;
+        &::after {
+            clear: both;
+            display: block;
+            content: "";
+        }
+        li {
+            width: 50%;
+            float: left;
+            padding: 10px 30px;
+            border-radius: 3px;
+            transition: all .1s ease;
+            @include phone {
+                margin: 10px 0;
+                width: 100%;
+                padding: 5px;
+                box-shadow: 0 1px 3px 0 #ccc;
+            }
+            &:hover {
+                background: #eee;
+                box-shadow: 0 2px 4px 0 #ccc;
+                @include phone {
+                    background: #fff;
+                    box-shadow: 0 1px 2px 0 #ccc;
+                }
+            }
+            .icon {
+                width: 10%;
+                float: left;
+                padding-top: 10px;
+                @include phone {
+                    width: 100%;
+                }
+                img {
+                    width: 40%;
+                    margin-left: 30%;
+                }
+            }
+            .desc {
+                float: left;
+                width: 90%;
+                padding: 0 5px;
+                @include phone {
+                    width: 100%;
+                }
+                h3 {
+                    margin: 0;
+                    margin-top: 10px;
+                    font-size: 20px;
+                    @include phone {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+                p {
+                    margin-top: 0px;
+                    color: #666;
+                    font-weight: 400;
+                    font-size: 14px;
+                    @include phone {
+                        font-size: 12px;
+                        text-align: center;
+                    }
+                }
+            }
+            &::after {
+                clear: both;
+                display: block;
+                content: "";
+            }
+        }
+    }
+}
+
+@mixin clearfix() {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+#plan {
+    background: #f8f8f8;
+    padding: 30px 0;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 90;
+    h4 {
+        font-size: 20px;
+        @include phone {
+        	font-size:18px;
+        }
+    }
+    p {
+    	font-size:16px;
+        @include phone {
+        	font-size: 12px;
+        }
+    }
+    div.card-plan {
+        width: 100%;
+        min-height: 100px;
+        // background:#fff;
+        // box-shadow:0 1px 5px 0 #ccc;
+        .collapsible.popout li {
+            box-shadow: 0 1px 1px 0 #ccc;
+            margin-left: 7px;
+            @include phone {
+                margin-right: 0;
+            }
+            .collapsible-header {
+                transition: all .1s ease;
+            }
+            .collapsible-body {
+                background: #fff;
+            }
+            .collapsible-header:hover,
+            .collapsible-header.active {
+                background: $blue;
+                color: #fff;
+            }
+        }
+        div.card-header {
+            background: #fff;
+            width: 100%;
+            padding: 10px;
+            box-shadow: 0 2px 2px 0 #ccc;
+            @include clearfix;
+            div.icon {
+                width: 20%;
+                float: left;
+                img {
+                    margin-left: 20%;
+                    width: 60%;
+                }
+            }
+            div.desc {
+                width: 80%;
+                float: left;
+                padding-left: 10px;
+                h4,
+                h5,
+                p {
+                    margin: 2px;
+                }
+                h4 {
+                    font-size: 20px;
+                    color: $blue;
+                    font-weight: 900;
+                }
+                h5 {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #5DDF16;
+                    &::before {
+                        content: "Rp. ";
+                    }
+                }
+                p {
+                    font-style: italic;
+                    color: #777;
+                }
+            }
+        }
+    }
+    .info-plan {
+        h4 {
+            margin-bottom: 3px;
+        }
+        p {
+            color: #777;
+            margin: 3px 0;
+        }
+        .phone-contact {
+            font-size: 20px;
+            font-weight: 900;
+            color: #444;
+            i {
+                margin-right: 15px;
+                font-size: 30px;
+                display: inline-block;
+                position: relative;
+                top: 5px;
+            }
+        }
+    }
+}
+
+#subscribe-form {
+    background: $blue;
+    color: #fff;
+    padding: 20px 0;
+    p {
+        font-weight: 300;
+    }
+    div.input-field {
+        width: 100%;
+        .prefix {
+            color: #fff;
+        }
+        label {
+            color: #fff;
+        }
+        input[type="email"],
+        input[type="text"] {
+            border-bottom: 1px solid #fff;
+        }
+    }
+    .btn.waves {
+        width: 100%;
+        margin-top: 20px;
+        color: $blue;
+        background: #fff;
+    }
+}
+
+footer {
+    z-index: 100;
+    position: relative;
+    box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    padding-top: 40px;
+    background: #eee;
+    font-weight: 300;
+    .row {
+        margin-bottom: 2px;
+    }
+    p.copyright {
+        color: #777;
+        margin: 6px 0;
+    }
+    img {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .menu {
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            li {
+                padding: 0;
+                display: inline-block;
+                a {
+                    font-weight: 500;
+                    color: #777;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
+#kontak {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    @include phone {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .col-6 {
+        padding: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.kontak {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    li {
+        margin-top: 40px;
+        width: 100%;
+        div {
+            box-shadow: 0 1px 1px 0 #ccc;
+            padding: 10px 20px;
+            margin-left: 80px;
+            margin-top: -60px;
+            background: #f8f8f8;
+            display: block;
+            &:hover {
+                background: #f2f2f2;
+            }
+            h3 {
+                margin: 0;
+                @include phone {
+                    font-size: 22px;
+                }
+            }
+            p {
+                font-size: 18px;
+                color: #999;
+                margin: 0;
+                @include phone {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.kontak li i {
+    background: #fff;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    line-height: 60px;
+    color: #555;
+}
+
+.kontak li i:after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    // background:#
+}
+
+.kontak:after {
+    width: 1px;
+    height: 100%;
+    content: "";
+    background: #ddd;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: -1;
+}
