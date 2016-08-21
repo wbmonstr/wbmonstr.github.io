@@ -15,12 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: WBMonstr
 email: wbmonstr@gmail.com
+tagline: Blending Art, Creativity & Code be Awesome
+keyword: "template wordpress, branding dengan website, seo, jasa pembuatan website, web usaha, website ukm, web design, web design di bali, web designer bali, company profile, bali web design, web design bali, design web bali"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Kita bisa bantu kamu untuk membangun website dengan pendekatan bergaya modern yang sedang ngtren saat ini. Nantinya bisa kamu jadikan sebagai sarana perkenalan produk dan usahamu. Cocok banget buat kamu yang muda-muda baru membuka usaha.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com" # the base hostname & protocol for your site
+url: "https://wbmonstr.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 telephone: 089685585336
