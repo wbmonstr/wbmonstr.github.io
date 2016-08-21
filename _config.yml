@@ -23,6 +23,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+telephone: 089685585336
+
+port: 3900
+
+permalink: /:title.html
 
 sass:
   sass_dir: css/_sass

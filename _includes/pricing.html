@@ -6,156 +6,50 @@
         </div>
     </div>
     <div class="row">
-        <div class="col l4 offset-l2">
-            <div class="card-plan">
-                <div class="card-header">
-                    <div class="icon">
-                        <img src="image/Assets/catalog.png" alt="">
+        <div class="col l8 offset-l2 s12">
+
+        {% for pricing in site.data.pricing %}
+        {% assign price = pricing[1] %}
+            <div class="col l6 s12">
+                <div class="card-plan">
+                    <div class="card-header">
+                        <div class="icon">
+                            <img src="image/Assets/catalog.pg" alt="">
+                        </div>
+                        <div class="desc">
+                            <h4>{{ price.title }}</h4>
+                            <h5>{{ price.harga }}</h5>
+                            <p>{{ price.status }}</p>
+                        </div>
                     </div>
-                    <div class="desc">
-                        <h4>Paket Hemat</h4>
-                        <h5>1.600.000</h5>
-                        <p>Sekali Bayar</p>
+                    <div class="card-list-plan">
+                        <ul class="collapsible popout">
+                            {% for fitur in price.fitur %}
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="icon ion-android-checkbox-outline"></i>
+                                    {{fitur.nama}}
+                                </div>
+                                <div class="collapsible-body">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
-                <div class="card-list-plan">
-                    <ul class="collapsible popout">
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="icon ion-android-checkbox-outline"></i>Domain + Hosting
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i> Template Terbatas</div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i>Pembuatan 2-4 Minggu</div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i>Data Structure Schema.org
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i>Responsive Design
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i>Design Modern
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header">
-                                <i class="ion-android-checkbox-outline"></i>SSL/HTTPS Sertifikat
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </div> <!-- col l6 -->
+        {% endfor %}
         </div>
-        <div class="col l4">
-            <div class="card-plan">
-                <div class="card-header">
-                    <div class="icon">
-                        <img src="image/Assets/toko online.png" alt="">
-                    </div>
-                    <div class="desc">
-                        <h4>Paket Premium</h4>
-                        <h5>3.600.000</h5>
-                        <p>Sekali Bayar</p>
-                    </div>
-                </div>
-                <div class="card-list-plan">
-                    <ul class="collapsible popout">
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">Domain + Hosting</div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">Template Terbatas</div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">Pembuatan 2-4 Minggu</div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">
-                                Data Structure Schema.org
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">
-                                Responsive Design
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">
-                                Design Modern
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div title="Klik untuk mengetahui info lebih lanjut!" class="collapsible-header">
-                                SSL/HTTPS Sertifikat
-                            </div>
-                            <div class="collapsible-body">
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- card-list-plan -->
-            </div>
-            <!-- card-plan -->
-        </div>
-        <!-- col l4 -->
-    </div>
+        <!-- col l8 -->
+    </div><!-- row -->
     <!-- row -->
     <div class="row">
         <div class="col l8 offset-l2 text-center info-plan">
             <h4>Harga diatas masih berlaku promo</h4>
             <p>Tidak ada batas waktu yang menentukan berakhirnya promo bisa saja besok promo sudah tidak berlaku jadi buruan sebelum harganya kembali ke harga normal. Segera Hubungi Kami.</p>
-            <p class="phone-contact"><i class="icon ion-ios-telephone"></i>089-685-585-336</p>
+            <p class="phone-contact"><i class="icon ion-ios-telephone"></i>{{ site.telephone}}</p>
         </div>
     </div>
 </div>

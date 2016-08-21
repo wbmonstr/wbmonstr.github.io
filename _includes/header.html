@@ -1,9 +1,9 @@
 {% assign current = page.url | downcase | split: '/' %}
 
 <header class="navbar-fixed">
-    <nav {% if page.title == 'layanan' %} id="homepage-navigation" {% else %} class="no__trans" {% endif %}>
+    <nav class="no__trans">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo" title="WBMonstr! Web Design & Web Development masa kini!">
+            <a href="index.html" class="brand-logo" title="WBMonstr! Web Design & Web Development masa kini!">
                 <!-- <img src="image/Assets/wbmonstr.png"> -->
                 
                 <h1>
@@ -23,11 +23,11 @@
             </ul>
 
             <ul class="side-nav" id="mobile-demo">
-                <li title="Klik untuk menuju Halaman Layanan" class="active"><a href="index.html">Layanan</a></li>
-                <li title="Klik untuk menuju Halaman Dukungan"><a href="dukungan.html">Dukungan</a></li>
-                <li title="Klik untuk menuju Halaman Layanan Lainnya"><a href="layanan-lainnya.html">Layanan Lainnya</a></li>
-                <li title="Klik untuk menuju Halaman Kontak"><a href="kontak.html">Kontak</a></li>
-                <li title="Klik untuk menuju Halaman FAQ"><a href="faq.html">FAQ</a></li>
+                <li title="Klik untuk menuju Halaman Layanan" {% if page.title == "layanan" %} class="active" {% endif %}><a href="index.html">Layanan</a></li>
+                <li title="Klik untuk menuju Halaman Dukungan" {% if page.title == "dukungan" %} class="active" {% endif %}><a href="dukungan.html">Dukungan</a></li>
+                <li title="Klik untuk menuju Halaman Layanan Lainnya" {% if page.title == "layanan-lainnya" %} class="active" {% endif %}><a href="layanan-lainnya.html">Layanan Lainnya</a></li>
+                <li title="Klik untuk menuju Halaman Kontak" {% if page.title == "kontak" %} class="active" {% endif %}><a href="kontak.html">Kontak</a></li>
+                <li title="Klik untuk menuju Halaman FAQ" {% if page.title == "faq" %} class="active" {% endif %}><a href="faq.html">FAQ</a></li>
             </ul>
         </div>
     </nav>

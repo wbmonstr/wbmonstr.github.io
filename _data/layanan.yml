@@ -1,0 +1,30 @@
+- title: "UKM dan Profil Perusahaan"
+  desc: "Buat kamu yang punya usaha/penginapan/hotel/rumah makan/usaha rental mobil, dan ingin menjelaskan seputar usahamu ke banyak orang"
+  img: "ribbon.png"
+  status: ""
+
+- title: "Blog/Publisher"
+  desc: "Buat kamu yang bosen ngeblog dengan tampilan blog gitu-gitu aja dan pengen tampil beda dari blogger lain dan membuat pengunjung betah berlama-lama."
+  img: "blogger.png"
+  status: ""
+
+- title: "Promosi Produk/Catalog"
+  desc: "Buat kamu yang punya produk yang mau kamu promosiin lewat internet."
+  img: "catalog.png"
+  status: ""
+
+- title: "Komunitas"
+  desc: "Buat kamu yang punya komunitas dan mau ngenalin komunitasmu ke orang lain supaya banyak yang tertarik ikut."
+  img: "komunitas.png"
+  status: ""
+
+- title: "Sewa/Rental"
+  desc: "Buat kamu yang punya usaha rental mobil/PS/motor dan pengen usaha rental mu bisa dipesan secara online langsung lewat web."
+  img: "rental.png"
+  status: ""
+
+- title: "Toko Online"
+  desc: "Buat kamu mau jualan online supaya tokomu dikenal oleh semua orang diseluruh dunia."
+  img: "toko-online.png"
+  status: ""
+

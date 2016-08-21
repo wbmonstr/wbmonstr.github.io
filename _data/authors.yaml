@@ -1,0 +1,7 @@
+- name: John Doe
+  email: john.doe@example.com
+  twitter: johndoe
+
+- name: Mary Doe
+  email: mary.doe@example.com
+  twitter: notjohndoe

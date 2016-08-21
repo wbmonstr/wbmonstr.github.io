@@ -9,49 +9,19 @@ $(window).load(function() {
 });
 
 
-// var options = [
-// 	{
-// 		selector:'#staggered-test', 
-// 		offset:350,
-// 		callback:function(el){
-// 			Materialize.showStaggeredList($(el));
-// 		}
-// 	}
-// ];
-
-
-// Materialize.scrollFire(options);
-//  
-
-
-
-
-// var options = [
-//     {
-//     	selector:'#staggered-test',
-//     	offset:200,
-//     	callback:function(el){
-//     		Materialize.showStaggeredList($(el));
-//     	}
-//     }
-//   ];
-//   Materialize.scrollFire(options);
-
-
-
 var options = [{
     selector: '#staggered-test',
     offset: 400,
     callback: function(el) {
         Materialize.showStaggeredList($(el));
     }
-}]
+}];
 
 
 var getY = function() {
     var offsety = window.pageYOffset;
     return offsety;
-}
+};
 
 getY();
 

@@ -1,0 +1,24 @@
+- type: telephone
+  title: Telephone
+  desc: 089685585336
+  icon: "ion-ios-telephone"
+
+- type: bbm
+  title: BBM
+  desc: 745d48d
+  icon: "ion-chatboxes"
+
+- type: email
+  title: Email
+  desc: wbmonstr@gmail.com
+  icon: "ion-ios-email"
+
+- type: line
+  title: Line
+  desc: "@wbmonstr"
+  icon: "ion-chatbubble"
+
+- type: wa
+  title: WhatsApp
+  desc: 089685585336
+  icon: "ion-social-whatsapp"

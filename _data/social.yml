@@ -1,0 +1,30 @@
+- type: facebook
+  title: Facebook
+  desc: WBMonstr
+  icon: "ion-social-facebook"
+  link: https://facebook.com/wbmonstr
+
+- type: twitter
+  title: Twitter
+  desc: "@WBMonstr"
+  icon: "ion-social-twitter"
+  link: https://twitter.com/wbmonstr
+
+- type: googleplus
+  title: Google Plus
+  desc: WBMonstr
+  icon: "ion-social-googleplus"
+  link: https://plus.google.com/wbmonstr
+
+- type: codepen
+  title: Codepen
+  desc: wbmonstr
+  icon: "ion-social-codepen"
+  link: https://codepen.io/wbmonstr
+
+- type: dribbble
+  title: Dribbble
+  desc: "@WBMonstr"
+  icon: "ion-social-dribbble"
+  link: https://dribbble.com/wbmonstr
+
