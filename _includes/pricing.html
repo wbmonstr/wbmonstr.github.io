@@ -14,7 +14,7 @@
                 <div class="card-plan">
                     <div class="card-header">
                         <div class="icon">
-                            <img src="image/Assets/catalog.pg" alt="">
+                            <img src="image/Assets/{{price.icon}}" alt="">
                         </div>
                         <div class="desc">
                             <h4>{{ price.title }}</h4>
@@ -32,7 +32,7 @@
                                     {{fitur.nama}}
                                 </div>
                                 <div class="collapsible-body">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>{{fitur.desc}}</p>
                                 </div>
                             </li>
                             {% endfor %}

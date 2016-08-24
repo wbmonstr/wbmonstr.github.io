@@ -6,7 +6,7 @@
 
 - type: twitter
   title: Twitter
-  desc: "@WBMonstr"
+  desc: "@WBMonstrDev"
   icon: "ion-social-twitter"
   link: https://twitter.com/wbmonstr
 
@@ -24,7 +24,6 @@
 
 - type: dribbble
   title: Dribbble
-  desc: "@WBMonstr"
+  desc: "@WBMonstrDev"
   icon: "ion-social-dribbble"
   link: https://dribbble.com/wbmonstr
-

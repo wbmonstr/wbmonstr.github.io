@@ -1,17 +1,22 @@
 title: Paket Mantap
 harga: "3.600.000"
 status: "Sekali Bayar"
+icon: "Paket Mantap.png"
 fitur:
   - nama: "Domain + Hosting"
-    desc: mojombo
+    desc: "Biaya sudah termasuk Domain + Hosting untuk setahun."
 
   - nama: "Data Structure Schema.org"
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed amet totam nam sunt praesentium ipsum atque dolores pariatur quia esse quas obcaecati aperiam error, quo similique. Mollitia voluptatum ipsam quasi."
+    desc: "Markup Structured Schema.org, memudahkan mesin pencari untuk mengenali struktur website dan juga menampilkan konten yang ada didalam website di pencarian"
 
-  - nama: "Pembuatan 1-2 Minggu"
+  - nama: "Pembuatan 2-4 Minggu"
+    desc: "Setidaknya kami membutuhkan waktu sekitar 2 - 4 Minggu pembuatan"
 
   - nama: "Responsive Design"
+    desc: "Memungkinkan website dapat dibuka dan diakses diberbagai ukuran layar seperti Smartphone, Tablet PC dan Komputer Desktop. <a href='#'>Lihat Survei Statistik Ukuran Layar Pengunjung</a>"
 
   - nama: "Design Modern"
+    desc: "Kami menggunakan tren gaya design yang populer saat ini seperti : <a href='#'>Material Design</a>, <a href='#'>Flat UI</a>, <a href='#'>Modern UI</a>"
 
   - nama: "SSL/HTTPS Sertifikat"
+    desc: "Setifikat HTTPS memungkinkan untuk memastikan bahwa website anda aman dan terjamin keamanannya dari pencuri data karena sudah terenksripsi. Selain itu juga meyakinkan pengunjung yang akan bertransaksi menggunakan website anda"

@@ -1,69 +1,69 @@
 - title: "Pasang Google Analytics"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: "ribbon.png"
-  status: 
+  img: "Google Analytics.png"
+  status:
 
 - title: "Pasang Google Maps"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Map.png"
 
 - title: "Pasang Facebook Opengraph"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "FBOpengraph.png"
 
 - title: "Social Sharing"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Social Sharing.png"
 
 - title: "Backup Import/Export Wordpress"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Import Ekspor.png"
 
 - title: "SEO Onpage"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "SEO.png"
 
 - title: "Chat System"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Chat System.png"
 
 - title: "Responsive Design"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Responsive.png"
 
 - title: "Perpanjangan Domain + Hosting"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img:
 
 - title: "Daftar & Pasang SSL/HTTPS Sertifikat"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Sertifikat.png"
 
 - title: "Data markup Schema.org"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Data Markup.png"
 
 - title: "Integrasi API"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Integrasi API.png"
 
 - title: "Payment Gateway"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Payment.png"
 
 - title: "SMS Gateway"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "sms-gateway.png"
 
 - title: "Pasang Discuss"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img:
+  status: "draft"
 
 - title: "Email Settings"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
+  img: "Email Setting.png"
 
 - title: "Google Adsword"
   desc: "Google Analytics merupakan tools pembantu website yang dapat digunakan untuk melakukan perhitungan, pelacakan pengunjung"
-  img: 
-
+  img: "Google Adsword.png"
