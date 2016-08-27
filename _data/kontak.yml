@@ -1,11 +1,11 @@
 - type: telephone
   title: Telephone
-  desc: 089685585336
+  desc: "089-526-770-326"
   icon: "ion-ios-telephone"
 
 - type: bbm
   title: BBM
-  desc: 745d48d
+  desc: D2ADD124
   icon: "ion-chatboxes"
 
 - type: email
@@ -15,10 +15,10 @@
 
 - type: line
   title: Line
-  desc: "@wbmonstr"
+  desc: "wbmonstr"
   icon: "ion-chatbubble"
 
 - type: wa
   title: WhatsApp
-  desc: 089685585336
+  desc: "089-526-770-326"
   icon: "ion-social-whatsapp"
