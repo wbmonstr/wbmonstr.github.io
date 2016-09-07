@@ -326,6 +326,7 @@ hr {
         }
         .card-content {
             height: 200px;
+            overflow:hidden;
             @include phone {
                 padding: 10px 15px;
                 min-height: 1px;

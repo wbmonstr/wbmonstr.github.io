@@ -27,7 +27,7 @@ telephone: "089-526-770-326"
 
 port: 3900
 
-permalink: /:title.html
+permalink: /:title
 
 sass:
   sass_dir: css/_sass
