@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://wbmonstr.github.io/sitemap.xml
